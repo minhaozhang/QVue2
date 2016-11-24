@@ -1,0 +1,42 @@
+/*字体颜色*/
+.am-ft-red {
+    color: @am-ft-red !important;
+}
+.nav .active-k a {
+    border-bottom: 1px solid @am-ft-blue;
+    color: @am-ft-blue;
+}
+.am-ft-green {
+    color: @am-ft-green !important;
+}
+.am-ft-white {
+    color:@am-ft-white
+}
+.am-ft-black {
+    color: @am-ft-black
+}
+.am-ft-gray {
+    color: @am-ft-gray;
+}
+.am-ft-lightgray {
+    color: @am-ft-lightgray
+}
+.am-ft-blue {
+    color: @am-ft-blue
+}
+.am-ft-darkgray{
+    color: @am-ft-darkgray
+}
+.weui_btn_plain_blue {
+    color: @am-ft-blue;
+}
+/*背景*/
+.am-bg-red{
+    background: @am-bg-red;
+}
+.am-bg-green{
+    background: @am-bg-green;
+}
+.am-bg-writh{
+    background: @am-bg-writh;
+}
