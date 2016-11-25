@@ -19,7 +19,9 @@
               <div class="newsImg" ><img :src="news.image" /></div>
               <div class="news-title am-flexbox-item">
                 <p class="am-ft-md am-ft-black am-ft-ellipsis">{{news.title}}</p>
-                <p class="am-ft-smm am-ft-darkgray">{{news.digest}}</p>
+                <p class="am-ft-smm am-ft-darkgray" v-if=" news.digest != null ">
+                  {{news.digest.toString().length > 23 ? news.digest.toString().substring(0,23) + "..." : news.digest.toString()}}
+                </p>
               </div>
               <div class=" am-ft-darkgray news-bottom-tips">{{new Date().formatTime(news.pubTime)}}</div>
             </li>
